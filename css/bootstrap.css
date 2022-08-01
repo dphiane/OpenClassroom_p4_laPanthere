@@ -1405,16 +1405,6 @@ textarea {
     line-height: inherit
 }
 
-a {
-    color: #337ab7;
-    text-decoration: none
-}
-
-a:focus,
-a:hover {
-    color: #23527c;
-    text-decoration: underline
-}
 
 a:focus {
     outline: thin dotted;
@@ -4246,10 +4236,6 @@ input[type=submit].btn-block {
 
 .fade.in {
     opacity: 1
-}
-
-.collapse {
-    display: none
 }
 
 .collapse.in {
