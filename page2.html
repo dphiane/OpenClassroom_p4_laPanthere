@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>Page Contact</title>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.jsdefer"></script>
+	<script src="./js/blocs.js"defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"defer></script>
+
+	<title>Page Contact</title>
 
     
 </head>
@@ -42,7 +42,7 @@
 	</div>
 </aside>
 <!-- bloc-0 END -->
-
+<main>
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
@@ -62,7 +62,7 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<main>
+
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -72,28 +72,21 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" required/>
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label>Adresse email</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label>Comment nous avez-vous connu ?</label>
+						<input class="form-control" type="text" required/>
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
@@ -111,11 +104,33 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">La Panthère Agence web basée à Lyon.<br></p>
+				<p class="text-center white">La Panthère Agence web basée à Lyon.</p>
+			</div>
+		</div>
+		<div class="row row-no-gutters social">
+			<div class="col-sm-3">
+				<div class="text-center">
+					<a class="social" title="Aller sur notre Twitter"href="https://twitter.com"><span class="fa fa-twitter icon-md"></span></a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="text-center">
+					<a class="social" title="Aller sur notre facebook" href="https://www.facebook.com"><span class="fa fa-facebook icon-md"></span></a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="text-center">
+					<a class="social" title="Aller sur notre dribbble" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="text-center">
+					<a class="social" title="Aller sur notre instagram" href="https://www.instagram.com"><span class="fa fa-instagram icon-md"></span></a>
+				</div>
 			</div>
 		</div>
 	</div>
-		</footer>
+</footer>
 	
 
 </body>
