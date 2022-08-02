@@ -501,6 +501,7 @@ p{ font-size: 14px;}
 }
 
 .social {
+    width: 48px;
     max-width: 400px;
     margin: auto auto auto auto;
 }
